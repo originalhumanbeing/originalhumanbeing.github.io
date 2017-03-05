@@ -1,0 +1,337 @@
+@charset "UTF-8";
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+/*숨김 콘텐츠*/
+.skip-nav, .hidden, legend {
+  background: red;
+  position: absolute;
+  left: -9999em;
+}
+
+.skip-nav:focus {
+  left: 0;
+  z-index: 10;
+}
+
+/*기본 스타일*/
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #181818;
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.demo-heading, .feature-heading, .stories-heading, .team-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.intro-content, .demo-content, .stats dd, .feature-content, .feature dd, .stories-content, .stories-detail p, .team-content, .second-member dd, .company p, .contact-info, .subscription-content {
+  color: rgba(51, 51, 51, 0.5);
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+.feature, .stats, .demo, .stories, .team, .footer {
+  margin-top: 100px;
+}
+
+/*링크 스타일*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover, a:focus {
+  color: rgb(238, 98, 67);
+}
+
+/*컨테이너*/
+.wrapper {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.header, .intro, .demo, .feature, .stats, .stories, .team, .footer {
+  width: 1140px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/*헤더*/
+.header {
+  margin-top: 1px;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  margin: 0;
+}
+
+.gnb {
+  float: right;
+  margin: 0;
+}
+
+.menu {
+  overflow: hidden;
+}
+
+.gnb ul {
+  margin: 0;
+}
+
+.gnb li {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+}
+
+.gnb a {
+  padding: 3px;
+  margin-left: 5px;
+}
+
+/*인트로*/
+.intro-heading {
+  font-size: 2.5rem;
+  text-align: left;
+  padding: 235px 0 0 0;
+  margin: 0;
+}
+
+.intro-content {
+  display: inline-block;
+  width: 500px;
+}
+
+.intro button {
+  display: block;
+  border: 0;
+  border-radius: 3px;
+  font-weight: lighter;
+  font-size: 0.9rem;
+  padding: 10px 50px;
+  background: rgb(3, 166, 123);
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 150px;
+}
+
+.demo {
+  position: relative;
+  min-height: 600px;
+}
+
+.demo-heading {
+  text-align: left;
+  padding-top: 230px;
+}
+
+.demo-content {
+  width: 40%;
+}
+
+.demo img {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+/*통계*/
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.stats dl {
+  width: 250px;
+}
+
+.stats dt {
+  display: inline-block;
+  font-size: 48px;
+  color: rgb(3, 166, 123);
+  font-weight: bold;
+  width: 250px;
+  margin: 0 auto 5px auto;
+}
+
+.stats dd {
+  width: 250px;
+  margin: 0 auto 5px auto;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #181818;
+}
+
+.stats .stats-brief {
+  width: 250px;
+  margin: 0 auto;
+  padding: 10px 0;
+  text-transform: none;
+  letter-spacing: 0;
+  color: rgba(51, 51, 51, 0.5);
+}
+
+/*기능*/
+.feature-content {
+  width: 690px;
+  margin-left: 225px;
+  text-align: center;
+}
+
+.feature dl {
+  display: inline-block;
+  width: 375px;
+  vertical-align: top;
+  text-align:center;
+  margin: 40px 0px 80px 0;
+}
+
+.feature dl dt::before {
+  content: url(./img1/Icon.png);
+  display: block;
+  padding-bottom: 10px;
+}
+
+.feature dl dt {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.feature dl dd {
+  display: block;
+  margin: 0 30px 30px 30px;
+  width: 85%;
+}
+
+/*스토리*/
+.stories-content {
+  width: 690px;
+  margin-left: 225px;
+  text-align: center;
+}
+
+.stories-detail {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.stories-detail figcaption {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 200px;
+  min-height: 36px;
+  margin: 10px auto 0px auto;
+}
+
+/*팀 소개*/
+.team-content {
+  width: 63%;
+  margin-left: 18%;
+  text-align: center;
+}
+
+.team-member {
+  float: left;
+  text-align: center;
+}
+
+.team::after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.second-member {
+  position: relative;
+  display: inline-block;
+}
+
+.second-member dl {
+  width: 280px;
+  position: absolute;
+  top: 35px;
+  left: 40px;
+}
+
+.second-member dt {
+  width: 280px;
+  margin: 0 auto;
+  padding: 8px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.second-member dd {
+  margin: 10px;
+}
+
+/*푸터*/
+.footer {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.company p {
+  width: 280px;
+}
+
+.contact h3, .subscription h3 {
+  margin: 0;
+}
+
+.contact-info {
+  width: 400px;
+}
+
+.subscription-content {
+  width: 220px;
+}
+
+.subscription fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.subscription input, .subscription button {
+  border: 0;
+  border-radius: 3px;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+
+.subscription input {
+  padding: 11px 95px 12px 24px;
+  background: rgb(232, 233, 235);
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.subscription button {
+  width: 56px;
+  height: 40px;
+  text-indent: 50px;
+  white-space: nowrap;
+  margin-left: -6px;
+  background-image: url("./img3/subscribe-Button.png");
+  background-repeat: no-repeat;
+  color: #fff;
+}

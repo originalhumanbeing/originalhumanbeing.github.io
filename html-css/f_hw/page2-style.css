@@ -1,0 +1,441 @@
+@charset "UTF-8";
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+/*숨김 콘텐츠*/
+.skip-nav, .hidden, legend {
+  background: red;
+  position: absolute;
+  left: -9999em;
+}
+
+.skip-nav:focus {
+  left: 0;
+  z-index: 10;
+}
+
+/*기본 스타일*/
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #181818;
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.intro-heading, .feature-heading, .demo-heading, .gallery-heading, .store-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.intro-content, .demo-sneakpeek-content, .feature-content, .gallery-content, .feature dd {
+  color: rgba(51, 51, 51, 0.5);
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+.feature, .demo, .download, .client {
+  margin-top: 100px;
+}
+
+/*링크 스타일*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover, a:focus {
+  color: rgb(238, 98, 67);
+}
+
+/*컨테이너*/
+.wrapper {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.header, .intro, .demo, .feature, .store, .footer {
+  width: 1140px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/*헤더*/
+.header {
+  margin-top: 1px;
+  position: relative;
+}
+
+/*메뉴*/
+.menu .logo {
+  margin: 0;
+  position: absolute;
+  top: -3px;
+}
+
+.gnb {
+  float: right;
+}
+
+.gnb a {
+  padding: 3px;
+}
+
+.gnb::after {
+  content: "";
+  display: block;
+  clear: right;
+}
+
+.language {
+  display: inline-block;
+}
+
+.english {
+  color:  rgb(3, 166, 123);
+  padding: 3px;
+}
+
+.english::after {
+  content: "/";
+  padding-left: 5px;
+  color: rgb(190, 190, 190);
+}
+
+.de {
+  padding: 3px;
+  margin-right: 120px;
+}
+
+.burgerbar-list {
+  text-align: right;
+  height: 30px;
+  overflow: hidden;
+  transition: all 0.5s;
+  position: absolute;
+  top: -20px;
+  right: 0px;
+}
+
+.burgerbar-list a {
+  height: 30px;
+  line-height: 30px;
+}
+
+.burgerbar-list:hover, .burgerbar-list:focus {
+  height: 140px;
+}
+
+/*인트로*/
+.intro-heading {
+  padding: 246px 319px 0 319px;
+}
+
+.intro-content {
+  width: 70%;
+  text-align: center;
+  margin: 0 181px;
+}
+
+.intro-btn {
+  color: rgb(3, 166, 123);
+  font-size: 0.9rem;
+  line-height: 12px;
+  background: #fff;
+  border: 1px solid rgb(3, 166, 123);
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px 57px;
+  margin: 40px 441px;
+}
+
+.intro-btn span {
+  display: inline-block;
+  width: 12px;
+  height: 0;
+  padding-top: 12px;
+  overflow: hidden;
+  background-image: url("./img2/play-Icon.png");
+  background-repeat: no-repeat;
+  margin-right: 8px;
+}
+
+.blokk-browser {
+  display: block;
+  width: 840px;
+  height: 0px;
+  padding-top: 300px;
+  overflow: hidden;
+  background-image: url("./img2/Browser Mockup.png");
+  background-repeat: no-repeat;
+  margin: 0 150px;
+}
+
+/*데모*/
+.demo {
+  background: rgb(3, 166, 123);
+  min-height: 460px;
+}
+
+.demo-sneakpeek img{
+  margin: 136px 0 0 480px;
+}
+
+.demo-sneakpeek-content {
+  width: 50%;
+  color: #fff;
+  opacity: 0.5;
+  text-align: center;
+  margin-left: 304px;
+}
+
+/*기능*/
+
+.feature {
+  position: relative;
+  min-height: 800px;
+  margin-top: 50px;
+}
+
+.feature-content {
+  width: 63%;
+  text-align: center;
+  margin: 0 211px;
+}
+
+.feature-part1, .feature-part2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 100px auto 15px auto;
+}
+
+.feature-part1 {
+  float: left;
+  width: 340px;
+}
+
+.feature-part1 dt {
+  width: 340px;
+  margin: 0 auto 15px auto;
+  text-transform: uppercase;
+  color: rgb(3, 166, 123);
+  letter-spacing: 2px;
+}
+
+.feature-part2 dt {
+  width: 310px;
+  margin: 0 auto 15px auto;
+  text-transform: uppercase;
+  color: rgb(3, 166, 123);
+  letter-spacing: 2px;
+}
+
+.feature-part1 dd, .feature-part2 dd {
+  width: 340px;
+  margin: 0 auto 50px auto;
+}
+
+.feature-part2 dd {
+  margin-bottom: 70px;
+}
+
+.feature-detail1 {
+  width: 300px;
+}
+
+.feature-detail2 {
+  width: 250px;
+}
+
+.feature-part2 {
+  float: right;
+  width: 340px;
+}
+
+.feature-detail3 {
+  width: 220px;
+}
+
+.feature-detail4 {
+  width: 270px;
+}
+
+.feature::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.blokk-image {
+  display: block;
+  width: 256px;
+  height: 0px;
+  padding-top: 533px;
+  overflow: hidden;
+  background: url("./img1/Iphone-Mockup.png") no-repeat;
+  position: absolute;
+  top: 155px;
+  left: 450px;
+  margin-bottom: 100px;
+}
+
+/*갤러리*/
+.main-content .gallery-content {
+  width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.gallery-content img {
+  margin-top: 50px;
+  padding-right: 30px;
+}
+
+.gallery-content::before {
+  content: "";
+  background: url("./img2/arr-circle-left.png") no-repeat;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 80px;
+  padding-right: 50px;
+  margin-left: 30px;
+}
+
+.gallery-content::after {
+  content: "";
+  background: url("./img2/arr-circle-right.png") no-repeat;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 80px;
+  margin-left: 30px;
+}
+
+/*위치*/
+.store {
+  margin-top: 100px;
+  position: relative;
+}
+
+.store-map {
+  width: 1076px;
+  height: 0;
+  padding-top: 579px;
+  overflow: hidden;
+  background-image: url("./img2/Map.png");
+  background-repeat: no-repeat;
+  margin: 60px 32px 35px 32px;
+}
+
+.about-blokk {
+  position: absolute;
+  top: 280px;
+  left: 152px;
+  width: 350px;
+  padding: 20px 20px 20px 0px;
+  /*margin: 0 auto;*/
+  text-align: center;
+  background: #fff;
+}
+
+.about-blokk dt {
+  width: 350px;
+  margin: 10px 20px;
+  color: rgb(3, 166, 123);
+}
+
+.about-blokk dd {
+  color: rgba(51, 51, 51, 0.5);
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+/*푸터*/
+.footer {
+  margin-top: 100px;
+}
+
+.company {
+  float: left;
+  width: 330px;
+  color: rgba(51, 51, 51, 0.5);
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+.footer-navigation {
+  float: right;
+}
+
+.footer::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.footer-navigation li {
+  display: inline-block;
+}
+
+.footer-navigation li a {
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.footer-navigation li:nth-child(1) {
+  margin-left: 125px;
+}
+
+.social-media {
+  float: right;
+}
+
+.social-media, .social-media li {
+  display: inline-block;
+}
+
+.social-media a {
+  margin-right: 10px;
+  display: inline-block;
+  height: 0;
+  padding-top: 18px;
+  overflow: hidden;
+  background-image: url("./img2/Social.png");
+  background-repeat: no-repeat;
+}
+
+.slack {
+  width: 15px;
+}
+
+.twitter {
+  width: 15px;
+  background-position: -35px 0;
+}
+
+
+.facebook {
+  width: 9px;
+  background-position: -70px 0;
+}
+
+.dribble {
+  width: 18px;
+  background-position: -100px 0;
+}
+
+.google {
+  width: 20px;
+  background-position: -132px 0;
+}
+
+.instagram {
+  width: 18px;
+  background-position: -168px 0;
+}

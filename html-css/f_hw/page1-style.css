@@ -1,0 +1,354 @@
+@charset "UTF-8";
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+/*숨김 콘텐츠*/
+.skip-nav, .hidden, legend {
+  background: red;
+  position: absolute;
+  left: -9999em;
+}
+
+.skip-nav:focus {
+  left: 0;
+  z-index: 10;
+}
+
+/*기본 스타일*/
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #181818;
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.feature-heading, .demo-heading, .download-heading, .client-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.intro-content, .feature-content, .download-content, .client-content, .feature dd, .client-quote{
+  color: rgba(51, 51, 51, 0.5);
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+.feature, .demo, .download, .client {
+  margin-top: 100px;
+}
+
+/*링크 스타일*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover, a:focus {
+  color: rgb(238, 98, 67);
+}
+
+/*컨테이너*/
+.wrapper {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.header, .main-content, .footer {
+  width: 1140px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/*헤더*/
+.header {
+  margin-top: 1px;
+  position: relative;
+}
+
+/*메뉴*/
+.menu .logo {
+  margin: 0;
+  position: absolute;
+  top: -3px;
+}
+
+.gnb, .gnb ul {
+  display: inline-block;
+  margin: 0;
+}
+
+.gnb li {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 30px;
+}
+
+.gnb li:first-child {
+  margin-left: 50px;
+}
+
+.gnb a {
+  padding: 3px;
+}
+
+.member {
+  float: right;
+}
+
+.member .btn-signup {
+  padding: 10px 35px;
+  border-radius: 5px;
+  background: #fff;
+  color: rgb(3, 166, 123);
+  border: 1px solid rgb(3, 166, 123);
+}
+
+.member .login {
+  margin-right: 20px;
+  padding: 3px;
+}
+
+.intro::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*인트로*/
+.intro {
+  min-height: 650px;
+}
+
+.intro-heading {
+  padding: 235px 0 0 0;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.intro-content {
+  display: inline-block;
+  /*width: 535px;*/
+  width: 50%;
+}
+
+.intro fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.intro input, .intro button {
+  border: 0;
+  border-radius: 3px;
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+
+.intro input {
+  padding: 8px 150px 8px 24px;
+  background: rgb(232, 233, 235);
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.intro button {
+  padding: 8px 50px;
+  margin-left: -6px;
+  background: rgb(3, 166, 123);
+  color: #fff;
+}
+
+.blokk-image {
+  display: block;
+  width: 256px;
+  height: 0px;
+  padding-top: 533px;
+  overflow: hidden;
+  background: url("./img1/Iphone-Mockup.png") no-repeat;
+  position: absolute;
+  top: 100px;
+  right: 145px;
+}
+
+/*메인 콘텐츠*/
+/*기능*/
+.feature-heading {
+  text-align: center;
+}
+
+.feature-content {
+  /*width: 700px;*/
+  width: 63%;
+  padding: 0 220px;
+  text-align: center;
+}
+
+.feature dl {
+  display: inline-block;
+  width: 375px;
+  vertical-align: top;
+  text-align:center;
+  margin: 40px 0px 80px 0;
+}
+
+.feature dl dt::before {
+  content: url(./img1/Icon.png);
+  display: block;
+  padding-bottom: 10px;
+}
+
+.feature dl dt {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.feature dl dd {
+  display: block;
+  margin: 0 30px;
+  width: 85%;
+}
+
+/*데모*/
+.demo-heading {
+  text-align: center;
+}
+
+.demo-sneakpeek {
+  padding: 0 203px;
+}
+
+/*다운로드*/
+.download-heading {
+  text-align: center;
+}
+
+.download-content {
+  width: 50%;
+  margin: 0 25%;
+  text-align: center;
+}
+
+.download-btn button {
+  padding: 10px 70px;
+  font-size: 0.9rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  border-radius: 4px;
+  border: 1px solid rgb(3, 166, 123);
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.download-appstore {
+  float: left;
+  background: rgb(3, 166, 123);
+  color: #fff;
+  margin-left: 335px;
+}
+
+.download-googlestore {
+  float: right;
+  background: #fff;
+  color: rgb(3, 166, 123);
+  margin-right: 335px;
+}
+
+.download-btn::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*고객*/
+.client-content {
+  width: 63%;
+  margin: 0 20%;
+  text-align: center;
+}
+
+.client-cite {
+  display: flex;
+  margin-top: 10px;
+}
+
+.client1, .client2, .client3 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.client-name {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 8px 0 3px 0;
+}
+
+.client-professional {
+  color: rgb(207, 212, 211);
+  font-weight: lighter;
+}
+
+/*푸터*/
+.footer {
+  margin-top: 50px;
+}
+
+.copyright {
+  float: left;
+  margin-top: 19px;
+}
+
+.footer-navigation {
+  display: inline-block;
+}
+
+.footer-navigation li {
+  display: inline-block;
+}
+
+.footer-navigation li a {
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.footer-navigation li:nth-child(1) {
+  margin-left: 125px;
+}
+
+.social-media, .social-media li {
+  display: inline-block;
+}
+
+.social-media a {
+  margin-right: 10px;
+  display: inline-block;
+  height: 0;
+  padding-top: 18px;
+  overflow: hidden;
+  background-image: url("./img1/Social.png");
+  background-repeat: no-repeat;
+}
+
+.facebook {
+  width: 9px;
+  margin-left: 100px;
+}
+
+.dribble {
+  width: 17px;
+  background-position: -30px 0;
+}
+
+.google {
+  width: 20px;
+  background-position: -62px 0;
+}
+
+.instagram {
+  width: 18px;
+  background-position: -97px 0;
+}
