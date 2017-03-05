@@ -1,3 +1,7 @@
-# originalhumanbeing.github.io
+# What this humanbeing study
 
-[html/css 공부 및 실습](/html-css/index.html)
+* [html-css](/html-css/index.html)
+* [Responsive web](/rwd/index.html)
+* [JavaScript](/js/index.html)
+* [Toy Project](/toy/index.html)
+* [Today-I-learned](/til/index.html)
