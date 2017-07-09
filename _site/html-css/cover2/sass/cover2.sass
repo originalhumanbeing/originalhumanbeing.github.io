@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat")
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display")
+
+body
+  font-family: 'Montserrat', sans-serif
+  font-size: 16px
+  margin: 0
+  padding: 0
+  background-color: #e7e7e7
+  box-sizing: border-box
+  &*,
+  &::before,
+  &::after
+    box-sizing: inherit
+
+.container
+  width: 100%
+  margin: 0 0.833333333333333%
+  background: linear-gradient(to bottom, transparent 23px, #000 23px), linear-gradient(to right, transparent 15.306122448979592%, hsla(226, 54%, 75%, 0.24) 15.306122448979592%, hsla(226, 54%, 75%, 0.24) 69.387755102040816%, transparent 69.387755102040816%)
+  background-size: 1px 24px, 8.305084745762712% 1px
+
+// row module
+.row::after
+  content: ''
+  display: block
+  clear: both
+
+// column module
+[class="col-"]
+  float: left
+  margin-left: 10px
+  margin-right: 10px
+
+// mobile-column
+$container-m-width: 1200px !default
+$column-m-width: 98px !default
+@for $i from 1 through 12
+  .col-m-#{$i}
+    width: $column-m-width/$container-m-width*$i*100%
+
+// mobile push module
+@for $i from 1 through 11
+  .push-m-#{$i}
+    position: relative
+    left: $column-m-width/$container-m-width*$i*100%
+
+.phoenix-nav
+  margin-top: 56px
+
+.logo
+  display: inline-block
+  vertical-align: middle
+  margin: 0
+  font-size: 1.024375em
+  font-weight: bold
+  &::before
+    display: inline-block
+    vertical-align: middle
+    content: url('/Users/Hyunjung/Fast_Campus/yamoot/day9/prac/cover2/img/logo.png')
+
+.fa-bars
+  color: #181818
+
+.intro
+  position: relative
+  & h1
+    font-size: 44px
+    width: 370px
+    margin-top: 157px
+  & p
+    font-family: 'Playfair Display', serif
+    width: 452px
+    line-height: 1.5
+    letter-spacing: 1px
+
+button
+  border-radius: 30px
+
+.app-download
+  background: #0081ff
+  color: #fff
+  box-shadow: 0px 1px 5px #0081ff
+  border: 0
+  padding: 5px 30px
+  line-height: 2.8
+  letter-spacing: 1px
+  margin-top: 65px
+  &::before
+    content: url('../img/apple.png')
+    margin-right: 10px
+    vertical-align: middle
+
+.more
+  font-weight: bold
+  background: transparent
+  border: 0
+  margin-left: -40px
+  letter-spacing: 1px
+
+.intro::after
+  content: url('../img/Mockups.png')
+  position: absolute
+  top: -130px
+  right: 110px
