@@ -1,11 +1,9 @@
-<!-- Footer -->
-    <section id="footer">
-        <div class="container">
-            <ul class="copyright">
-                <li>&copy; Untitled. All rights reserved.</li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                <li>Demo Images: <a href="https://unsplash.com/">Unsplash</a></li>
-                <li>Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
-            </ul>
-        </div>
-    </section>
+<footer>
+  <hr/>
+  {% if site.copyright.size > 0 %}
+    {{ site.copyright | markdownify }}
+  {% endif %}
+  <p>
+    <code>Powered by <a href="https://qwtel.com/hydejack/">Hydejack</a> v<span id="_version">6.4.0</span></code>
+  </p>
+</footer>
