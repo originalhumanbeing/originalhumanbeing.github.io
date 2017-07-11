@@ -2,7 +2,147 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="507c0430-4ad1-4db1-8b9a-9f8e76b430db" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/404.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_data/_resume.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_data/authors.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_data/countries.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_data/resume.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_data/social.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_featured_tags/hyde.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_featured_tags/hydejack.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/author.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/body.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/comments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/copyright-header.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/icon-github.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/link.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/message.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/nav.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/page-style.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/post-list-item.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/related.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/scripts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/scripts/cssrelpreload.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/scripts/load-disqus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/scripts/load-disqus.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/scripts/load-js-deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/scripts/load-js-deferred.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/scripts/loadCSS.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/social-list-item.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/social.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/srcset-img.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/styles/inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/styles/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/tag-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_js/lib/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_js/lib/version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_js/src/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_js/src/cross-fader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_js/src/drawer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_js/src/flip/flip.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_js/src/flip/title.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_js/src/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_js/src/katex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_js/src/push-state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/about.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/compress.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/not-found.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/redirect.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2017-07-11-test.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/__2012-02-06-whats-jekyll.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/__2012-02-07-example-content.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/__2013-12-28-introducing-hyde.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/__2016-03-08-introducing-hydejack.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/__2016-08-30-social-media-impocalypse.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/__2016-09-17-the-fast-one.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/__2017-05-03-javascripten.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/__2017-06-06-third-party-scripts.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/__2017-06-21-related-projects-and-data-tables.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_spinner.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/_syntax.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_base-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_content-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_drawer-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_drawer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_footer-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_katex.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_me-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_menu-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_menu.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_sidebar-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_sidebar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_social-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_social.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/hydejack/_toc.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_base-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_code.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_footer-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_footnotes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_message-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_posts-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_posts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_related-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_table-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_table.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_type-inline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_sass/pooleparty/_type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/hydejack.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icomoon/Read Me.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icomoon/demo-files/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icomoon/demo-files/demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icomoon/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icomoon/fonts/icomoon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icomoon/fonts/icomoon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icomoon/fonts/icomoon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icomoon/fonts/icomoon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icomoon/selection.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icomoon/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/docs/google-fonts.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/me.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/me@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/nap.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/projects/hyde-v1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/projects/hyde-v1@0,25x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/projects/hyde-v1@0,5x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/projects/hyde-v2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/projects/hyde-v2@0,25x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/projects/hyde-v2@0,5x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/hydejack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/version.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/posts.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tile-wide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tile.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="$PROJECT_DIR$/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="$PROJECT_DIR$/_layouts/page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/_variables.scss" afterPath="$PROJECT_DIR$/_sass/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.md" afterPath="$PROJECT_DIR$/about.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,111 +159,7 @@
     <favorites_list name="originalhumanbeing.github.io" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/blog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="compress.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/compress.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-07-11-test.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-07-11-test.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redirect.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/redirect.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -196,6 +232,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="_sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="originalhumanbeing.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="originalhumanbeing.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="originalhumanbeing.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="originalhumanbeing.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -211,6 +279,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="originalhumanbeing.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="originalhumanbeing.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="originalhumanbeing.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="originalhumanbeing.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -630,16 +730,16 @@
       <updated>1499586232597</updated>
       <workItem from="1499586234196" duration="688000" />
       <workItem from="1499589536257" duration="622000" />
-      <workItem from="1499779138133" duration="1662000" />
+      <workItem from="1499779138133" duration="2281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2972000" />
+    <option name="totallyTimeSpent" value="3591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="627" y="218" width="1152" height="657" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -655,7 +755,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36396396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36396396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -775,7 +875,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-06-21-related-projects-and-data-tables.md">
+    <entry file="file://$PROJECT_DIR$/_posts/__2017-06-21-related-projects-and-data-tables.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="210">
@@ -883,7 +983,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/about.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-07-11-test.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/hydejack/_footer-inline.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -891,10 +1002,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -917,8 +1036,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="165">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -931,22 +1050,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/list.html">
+    <entry file="file://$PROJECT_DIR$/_layouts/not-found.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-07-11-test.md">
+    <entry file="file://$PROJECT_DIR$/_layouts/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_featured_tags/hyde.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_featured_tags/hydejack.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/styles/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/hydejack/_sidebar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-926">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/hydejack.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/hydejack/_menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
