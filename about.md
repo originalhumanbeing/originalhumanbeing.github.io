@@ -17,13 +17,18 @@ permalink: /about/
 #### Memo Memo
 - Language: JavaScript/Node.js/Express.js/Vue.js
 - Implementation:
-  - 
+  -    
+
 #### final project (TBD)
 
 ### Team Project
 #### DayBack  
-- Language: Vue.js
-- Implementation:
+- 하루를 돌아보고 그날의 기분을 이모티콘으로 선택하고 관련 설명을 간단히 기록하는 서비스
+- Language: Vue.js/ Sass/ Firebase
+- Implementation: 
+  - 회원가입 및 로그인
+  - 오늘의 감정 기록 (당일에만 입력 가능)
+  - 일간 및 주간 감정 조회 (카드 플립, 바운드 리스트와 같은 애니메이션 효과 적용)
 
 ## Experience
 ### paycheck
