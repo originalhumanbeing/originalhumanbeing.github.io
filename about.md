@@ -13,11 +13,15 @@ permalink: /about/
 - Language: HTML/CSS/Vanilla JavaScript
 - Implementation:
   - Todo Item CRUD
+  - 완료한 Todo 항목 체크
+  - 완료 전/ 완료 후 Todo 카운팅
 
 #### Memo Memo
 - Language: JavaScript/Node.js/Express.js/Vue.js
 - Implementation:
-  -    
+  - 로그인/로그아웃
+  - 로그인 성공시 가장 최근에 작업했던 내용을 로드 (메모 자체, 커서)
+  - Memo CRUD
 
 #### final project (TBD)
 
