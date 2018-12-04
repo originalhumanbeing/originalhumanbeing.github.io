@@ -13,7 +13,7 @@ HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python을 사용 경험이 �
 ## Projects
 ### #. Personal Projects
 #### 1. Todo Todo
-![todo main 예시](./assets/images/demo/todo/todo_main.png)
+![todo](https://user-images.githubusercontent.com/22453170/49430892-8840e980-f7ef-11e8-89c4-8745627eca8a.png)
 - 매일 할 일을 작성하고 한 일에 대해 체크하는 서비스
 - **Language**: HTML, CSS, Vanilla JavaScript
 - **Implementation**:
@@ -23,8 +23,8 @@ HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python을 사용 경험이 �
 - **[demo 페이지로 이동](https://originalhumanbeing.github.io/KnowreWebDevCurriculum/demo/todo/)**
 
 #### 2. Memo Memo
-![memo main 예시](./assets/images/demo/memo/memo_main.png)
-![memo sign up 예시](./assets/images/demo/memo/memo_signup.png)
+![memo_main](https://user-images.githubusercontent.com/22453170/49430889-87a85300-f7ef-11e8-8440-6983a5d6eb24.png)
+![memo_signup](https://user-images.githubusercontent.com/22453170/49430891-87a85300-f7ef-11e8-8912-16f67223545e.png)
 - 유저별로 메모를 작성할 수 있는 서비스
 - **Language**: 
   - **Front-End**: HTML, CSS, Vanilla JavaScript, VueJS
