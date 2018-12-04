@@ -10,12 +10,10 @@ HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python을 사용 경험이 �
 - email: han.hyunjung17@gmail.com
 - github: [github.com/originalhumanbeing](https://github.com/originalhumanbeing)  
 
-***
-
 ## Projects
 ### #. Personal Projects
 #### 1. Todo Todo
-![todo](https://user-images.githubusercontent.com/22453170/49430892-8840e980-f7ef-11e8-89c4-8745627eca8a.png)
+![todo_main](https://user-images.githubusercontent.com/22453170/49431386-ba068000-f7f0-11e8-82f5-5ca899f75bd3.png)
 - 매일 할 일을 작성하고 한 일에 대해 체크하는 서비스
 - **Language**: HTML, CSS, Vanilla JavaScript
 - **Implementation**:
