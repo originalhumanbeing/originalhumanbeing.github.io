@@ -6,8 +6,10 @@ permalink: /about/
 ## 한현정 (Han Hyun-Jung)
 > 책임감을 가지고 꾸준히 개선해 나가는 주니어 웹 개발자입니다.  
 HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python을 사용 경험이 있습니다.  
+
 - email: han.hyunjung17@gmail.com
 - github: [github.com/originalhumanbeing](https://github.com/originalhumanbeing)  
+
 ***
 
 ## Projects
@@ -48,13 +50,13 @@ HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python을 사용 경험이 �
 
 ***
 ## Experience
-### paycheck
+#### paycheck
 - **Language**: Python, Flask
 - 모바일 서비스 내 푸시 기능 구현
   - 푸시 발송 및 푸시 예약 발송 API 구현
   - firebase의 FCM, Celery 활용
 
-### 서울대학교 빅데이터연구원
+#### 서울대학교 빅데이터연구원
 - **Language**: Apache/PHP/MySQL, WordPress, Ubuntu
 - 연구원 웹페이지 유지 보수 및 서버 관리
 - 고용노동부 교육 프로그램 사이트 기획 및 유지 보수
