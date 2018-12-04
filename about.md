@@ -5,9 +5,9 @@ permalink: /about/
 
 ## 한현정 (Han Hyun-Jung)
 > 책임감을 가지고 꾸준히 개선해 나가는 주니어 웹 개발자입니다.  
-HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python을 사용 경험이 있습니다.
+HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python을 사용 경험이 있습니다.  
 - email: han.hyunjung17@gmail.com
-- github: [github.com/originalhumanbeing](https://github.com/originalhumanbeing)
+- github: [github.com/originalhumanbeing](https://github.com/originalhumanbeing)  
 ***
 
 ## Projects
@@ -20,7 +20,7 @@ HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python을 사용 경험이 �
   - Todo Item CRUD
   - 완료한 Todo 항목 체크
   - 완료 전/ 완료 후 Todo 카운팅
-- **[demo 페이지로 이동]**(https://originalhumanbeing.github.io/KnowreWebDevCurriculum/demo/todo/)
+- **[demo 페이지로 이동](https://originalhumanbeing.github.io/KnowreWebDevCurriculum/demo/todo/)**
 
 #### 2. Memo Memo
 ![memo main 예시](./assets/images/demo/memo/memo_main.png)
