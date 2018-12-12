@@ -5,7 +5,7 @@ permalink: /about/
 
 ## 한현정 (Han Hyun-Jung)
 > 책임감을 가지고 꾸준히 개선해 나가는 주니어 웹 개발자입니다.  
-HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python을 사용 경험이 있습니다.  
+HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python 사용 경험이 있습니다.  
 
 - email: han.hyunjung17@gmail.com
 - github: [github.com/originalhumanbeing](https://github.com/originalhumanbeing)  
@@ -23,8 +23,8 @@ HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python을 사용 경험이 �
 - **[demo 페이지로 이동](https://originalhumanbeing.github.io/KnowreWebDevCurriculum/demo/todo/)**
 
 #### 2. Memo Memo
-![memo_main](https://user-images.githubusercontent.com/22453170/49430889-87a85300-f7ef-11e8-8440-6983a5d6eb24.png)
-![memo_signup](https://user-images.githubusercontent.com/22453170/49430891-87a85300-f7ef-11e8-8912-16f67223545e.png)
+![memo_main](https://user-images.githubusercontent.com/22453170/49430889-87a85300-f7ef-11e8-8440-6983a5d6eb24.png){: width="50%" height="auto"}
+![memo_signup](https://user-images.githubusercontent.com/22453170/49430891-87a85300-f7ef-11e8-8912-16f67223545e.png){: width="50%" height="auto"}
 - 유저별로 메모를 작성할 수 있는 서비스
 - **Language**: 
   - **Front-End**: HTML, CSS, Vanilla JavaScript, VueJS
@@ -36,6 +36,7 @@ HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python을 사용 경험이 �
   - 로그인 성공시 가장 최근에 작업했던 내용을 로드 (메모 자체, 커서)
   - Memo CRUD
   - 그 외 기능 추가중!
+  - **[demo 페이지로 이동](http://memomemo-www.s3-website.ap-northeast-2.amazonaws.com/#/)** 
 
 ### #. Team Project
 #### DayBack  
