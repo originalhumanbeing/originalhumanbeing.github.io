@@ -23,17 +23,17 @@ HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python 사용 경험이 있�
 - **[demo 페이지로 이동](https://originalhumanbeing.github.io/KnowreWebDevCurriculum/demo/todo/)**
 
 #### 2. Memo Memo
-![memo_main](https://user-images.githubusercontent.com/22453170/49430889-87a85300-f7ef-11e8-8440-6983a5d6eb24.png){: width="50%" height="auto"}
-![memo_signup](https://user-images.githubusercontent.com/22453170/49430891-87a85300-f7ef-11e8-8912-16f67223545e.png){: width="50%" height="auto"}
+![memomemo](https://user-images.githubusercontent.com/22453170/49988860-b1b20000-ffbb-11e8-8733-a5363753224e.png)
 - 유저별로 메모를 작성할 수 있는 서비스
 - **Language**: 
   - **Front-End**: HTML, CSS, Vanilla JavaScript, VueJS
   - **Back-End**: Node.js, Express.js
-  - **Deployment**: AWS
+  - **Deployment**: AWS S3(Front-End), EC2(Back-End), RDS (DB)
 - **Implementation**:
   - 회원가입
   - 로그인/로그아웃
-  - 로그인 성공시 가장 최근에 작업했던 내용을 로드 (메모 자체, 커서)
+  - 로그인 성공시 가장 최근에 작업했던 내용을 로드 (메모 내용, 커서)
+  - JWT token 활용하여 로그인 유지
   - Memo CRUD
   - 그 외 기능 추가중!
   - **[demo 페이지로 이동](http://memomemo-www.s3-website.ap-northeast-2.amazonaws.com/#/)** 
@@ -47,7 +47,6 @@ HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python 사용 경험이 있�
   - 오늘의 감정 기록 (당일에만 입력 가능)
   - 일간 및 주간 감정 조회 (카드 플립, 바운드 리스트와 같은 애니메이션 효과 적용)
 
-***
 ## Experience
 #### paycheck
 - **Language**: Python, Flask
