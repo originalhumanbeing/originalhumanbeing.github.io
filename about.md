@@ -35,7 +35,7 @@ HTML, CSS, JavaScript, Vue.js, Node.js, Express.js, Python 사용 경험이 있�
   - 로그인 성공시 가장 최근에 작업했던 내용을 로드 (메모 내용, 커서)
   - JWT token 활용하여 로그인 유지
   - Memo CRUD
-  - 그 외 기능 추가중!
+  - 테스트 코드 추가 (Auth 관련 테스트 커버리지 98%) 및 그 외 기능 추가중!
   - **[demo 페이지로 이동](http://memomemo-www.s3-website.ap-northeast-2.amazonaws.com/#/)** 
 
 ### #. Team Project
