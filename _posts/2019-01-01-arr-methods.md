@@ -3,7 +3,7 @@ layout: post
 title: "자주 쓰지만 계속 까먹는 Array 메소드 정리"
 description: "까먹지 말자 쫌"
 date: 2019-01-01
-tags: [ES6, Array, splice, slice, join, concat, forEach, map, reduce, filter, sort, TIL]
+tags: [ES6, Array, splice, slice, join, concat, forEach, map, reduce, filter, sort, indexOf, TIL]
 comments: true
 share: true
 ---
@@ -50,3 +50,19 @@ let newArr = arr.map(el => {
 ```
 - **`map`이 `return`해주는 새 `arr`을 잘 할당해주기만 하면 된다**
 
+## 특정 원소가 존재하는지 확인하고 싶을 때
+### 0. indexOf
+- 메소드의 이름 그대로 특정 원소의(of) 인덱스를 알려줌
+- params: value
+- return: 넘겨준 value를 가진 el의 idx (중복으로 있을 경우, 가장 먼저 찾은 idx)/ 없을 경우에는 -1
+
+```javascript
+let beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
+
+let bisons = [];
+
+beasts.forEach((e, idx) => {
+	if(e === 'bison') bisons.push(idx);
+});
+// bisons = [1, 4];
+```
