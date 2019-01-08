@@ -108,4 +108,4 @@ const result = test.filter(el => el);
 // result = [1, 2, 4, 5, 8];
 // test에 0이 포함되어 있을 경우, 0도 result에 포함되지 않는다
 ```
-- **`filter`는 빈 원소를 걸러주는 역활도 한다**
+- **`filter`는 빈 원소를 걸러주는 역할도 한다**
