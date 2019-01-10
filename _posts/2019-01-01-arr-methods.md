@@ -109,3 +109,7 @@ const result = test.filter(el => el);
 // test에 0이 포함되어 있을 경우, 0도 result에 포함되지 않는다
 ```
 - **`filter`는 빈 원소를 걸러주는 역할도 한다**
+
+
+### 차원, depth를 줄여야 할때
+#### 0. reduce
