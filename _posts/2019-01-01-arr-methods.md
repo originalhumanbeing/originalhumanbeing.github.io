@@ -62,7 +62,9 @@ let beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
 let bisons = [];
 
 beasts.forEach((e, idx) => {
-	if(e === 'bison') bisons.push(idx);
+	if( e.indexOf('bison') !== -1 ) {
+		bisons.push(idx);
+	}
 });
 // bisons = [1, 4];
 ```
@@ -111,5 +113,151 @@ const result = test.filter(el => el);
 - **`filter`는 빈 원소를 걸러주는 역할도 한다**
 
 
-### 차원, depth를 줄여야 할때
+### 배열을 하나로 합치고 싶을 때
+#### 0. concat
+- 인자로 받는 값, 배열 등을 하나의 배열로 합쳐준다
+- **params**: value
+- **return**: new Array (인자로 넣었던 배열들, 값들은 영향받지 않는다)
+
+```javascript
+let arr1 = ['a', 'b', 'c'];
+let arr2 = ['d', 'e'];
+arr1.concat(arr2);
+// output: ["a", "b", "c", "d", "e"]
+
+arr1.concat([['1', '12']]);
+// output: ["a", "b", "c", Array(2)]
+// value를 직접 넣어도 된다
+// 1차원 이상 배열은 이를 flat화시켜서 합쳐주지 않는다, 배열 내부를 재귀하지 않으므로 주의 
+```
+- **배열을 복사해서 새 배열을 반환할 때, 참조 복사가 되므로 새 배열의 값을 수정할 경우, 원본 배열의 값도 수정되니 유의**
+
+
+### arr의 원소들을 단일 값으로 만들어야 할 때
 #### 0. reduce
+- **덧셈 메소드가 아님에 주의**, 아래 예시를 보면 알겠지만 여러 원소를 가지고 있던 배열을 하나의 값(acc)으로 만드는 역할을 한다
+- 그 과정에서 조건에 맞는 값만을 추릴 수도, depth를 줄여나갈 수도 있다
+- **params**: function(accumulator(최종 값이 될 인자), currentVal, currentIdx, originalArr), initialVal 
+- **return**: accumulator
+
+
+```javascript
+const euros = [29.76, 41.85, 46.5];
+const average = euros.reduce((acc, val, idx, arr) => {
+  acc += val;
+  if( idx === arr.length - 1) { 
+    acc = acc / arr.length;
+  }
+  return acc;
+});
+
+average // 39.37
+```
+
+```javascript
+const euros = [29.76, 41.85, 46.5];
+const doubled = euros.reduce((acc, val, idx, arr) => {
+  acc.push(val * 2);
+  return acc;
+}, []);
+
+doubled // [59.52, 83.7, 93]
+```
+
+```javascript
+const euro = [29.76, 41.85, 46.5];
+const above30 = euro.reduce((acc, val, idx, arr) => {
+  if (val > 30) {
+    acc.push(val);
+  }
+  return acc;
+}, []);
+
+above30 // [ 41.85, 46.5 ]
+```
+
+```javascript
+const fruitBasket = ['banana', 'cherry', 'orange', 'apple', 'cherry', 'orange', 'apple', 'banana', 'cherry', 'orange', 'fig' ];
+const tally = fruitBasket.reduce( (acc, val, idx, arr) => {
+	if (acc.hasOwnProperty(val)) {
+		acc[val] += 1; 
+	} else {
+		acc[val] = 1;
+	}
+	return acc;
+} , {})
+
+tally // { banana: 2, cherry: 3, orange: 3, apple: 2, fig: 1 }
+```
+
+```javascript
+const data = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+function flatten(acc, val, idx, arr) {
+	acc.concat(val);
+	return acc;
+}
+
+data.reduce(flatten, []);
+// [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+```javascript
+const data = [
+  {a: 'happy', b: 'robin', c: ['blue','green']}, 
+  {a: 'tired', b: 'panther', c: ['green','black','orange','blue']}, 
+  {a: 'sad', b: 'goldfish', c: ['green','red']}
+];
+function totalColor(acc, val, idx, arr) {
+	if (val.hasOwnProperty('c') && Array.isArray(val['c'])) {
+		acc = acc.concat(val['c']);
+	}
+
+	return acc;
+}
+
+test.reduce(totalColor, []);
+// ["blue", "green", "green", "black", "orange", "blue", "green", "red"]
+```
+
+```javascript
+const data = [
+  {a: 'happy', b: 'robin', c: ['blue','green']}, 
+  {a: 'tired', b: 'panther', c: ['green','black','orange','blue']}, 
+  {a: 'sad', b: 'goldfish', c: ['green','red']}
+];
+function uniqueColor(acc, val, idx, arr) {
+	val['c'].forEach(e => {
+		if (acc.indexOf(e) === -1) {
+			acc.push(e);
+		}
+	})
+	
+	return acc;
+}
+
+test.reduce(uniqueColor, []);
+// ["blue", "green", "black", "orange", "red"]
+```
+
+```javascript
+function increment(val) {
+	val += 1;
+	return val;
+}
+function decrement(val) {
+	val -= 1;
+	return val;
+}
+function double(val) {
+	val *= 2;
+	return val;
+}
+const pipeline= [increment, double, decrement];
+
+function reducer(acc, val, idx, arr) {
+	return val(acc);
+}
+
+pipeline.reduce(reducer, 1);
+// 3
+```
